@@ -1,0 +1,22 @@
+package com.insurance.gateway.config;
+
+import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.cloud.gateway.filter.GatewayFilterChain;
+import org.springframework.stereotype.Component;
+import org.springframework.web.server.ServerWebExchange;
+import reactor.core.publisher.Mono;
+
+@Component
+public class LoggingFilter implements GlobalFilter {
+
+    @Override
+    public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
+
+        // ✅ Log incoming request
+        System.out.println("Incoming Request: " +
+                exchange.getRequest().getMethod() + " " +
+                exchange.getRequest().getURI());
+
+        return chain.filter(exchange);  // ✅ VERY IMPORTANT
+    }
+}
