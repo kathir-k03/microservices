@@ -1,0 +1,11 @@
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\controller\FraudController.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\dto\FraudRequest.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\dto\FraudResponse.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\entity\FraudCheck.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\exception\GlobalExceptionHandler.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\FraudServiceApplication.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\repository\FraudRepository.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\service\FraudService.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\strategy\DuplicateClaimStrategy.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\strategy\FraudStrategy.java
+C:\Users\balamurj\OneDrive - Capgemini\Desktop\insurance-system\fraud-service\src\main\java\com\insurance\fraud\strategy\HighAmountStrategy.java
